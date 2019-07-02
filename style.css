@@ -3,75 +3,77 @@
     margin:0;
     font-family: 'Open Sans', sans-serif;
 }
-.top-section{
-    height: 130%;
+
+.home{
     width: 100%;
     background-image: url(images/business-2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    
+   
+        
 }
 .layer {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
-    height: 100%;
+    
+    
 }
-.top-section .bar{
+.home .bar{
     padding: 0 14px;
     margin: 0 54px;
-
-     
 }
-.top-section h1{
+.home h1{
     width: 80%;
     margin: auto;
 }
-.top-section .bar ul {
+.home .bar ul {
     list-style-type: none;
     overflow: auto;
 }
-.top-section .bar ul li a{
+
+.home .bar ul li a{
     background-color: transparent;
     float: right;
     padding: 27px 16px;
     text-decoration: none;
+    box-sizing: border-box;
     font-weight: 600;
     font-size: 14px;
     color: white;
     
 }
-.top-section .bar ul li .home{
+.home .bar ul li .home-btn{
     border-top: 2px solid #ff8000;
     padding-top: 25px; 
 }
-.top-section .bar ul li .logo{
+.home .bar ul li .logo{
     float: left;
     padding: 0;
     margin: 27px 0;
     filter: brightness(4);
 }
-.top-section .bar ul li .contact{
-    padding: 15px 16px 22px 16px;
+.home .bar ul li .contact{
+    padding: 15px 16px 17px 16px;
     margin-top: 10px;
     background-color: #ff8000;
     border: 2px solid transparent;
     border-radius: 5px;
-    height: 10px;
+    
     
 }
-.top-section .bar ul li .logo img{
+.home .bar ul li .logo img{
     padding: 0;
     
 }
-.top-section .description{
+.home .description{
     text-align: center;
     margin-top: 250px;
     font-weight: 400;
-    height: 500px;
+    padding-bottom: 200px;
     
 
 }
-.top-section .description p{
+.home .description p{
     color: rgba(255,255,255,.92);
     font-size: 20px;
     
@@ -79,14 +81,14 @@
     
         
 }
-.top-section .description h1{
+.home .description h1{
     font-size: 50px;
     text-align: center;
     color: #fff;
     margin-bottom: 45px;
     
 }
-.top-section .description button {
+.home .description button {
     padding: 15px 28px;
     border: 2px solid transparent;
     border-radius: 4px;
@@ -97,27 +99,26 @@
     font-weight: 700;
     
 }
-.second-section{
+.advantages{
     background-color: white;
     overflow: auto;
     padding: 100px 54.5px 100px 54.5;
 }
-.second-section .section-icon{
-    width: 31.333333%;
+.advantages .section-icon{
+    width: 33.333333%;
     float: right;
     padding-left: 15px;
+    box-sizing: border-box;
 }
-.second-section .section-icon p{
-    
+.advantages .section-icon p{
     line-height: 1.86em;
-    
     color: #888;
     margin-top: 11px;    
     margin-left: 30px;
     width: 70%
 
 }
-.second-section .section-icon h5{
+.advantages .section-icon h5{
     font-size: 18px;
     color: #303030;
     line-height: 1.38em;
@@ -125,43 +126,49 @@
     margin-left: 10px;
     
 }
-.second-section .section-icon i{
+.advantages .section-icon i{
     margin-left: -10px;
     font-size: 30px;
     color: #ff8000;
     
     
 }
-.section-three{
+.our-services{
     background-color: #f8f8f8;
     padding: 80px 0 70px 0;
     overflow: auto;
     
 }
-.section-three h3{
+.our-services h3{
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
     font-weight: 400;
 }
-.section-three p{
+.our-services p{
     text-align: center;
     font-size: 20px;
     margin-bottom: 50px;
     color: #888;
 
 }
-.section-three .section-photo{
-    width: 31.333%;
+.our-services .section-photo{
+    width: 33.333%;
     float:right;
+    
+    padding: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.our-services .section-photo img{
+    width: 100%
+}
+.our-services .section-photo .container {
     background-color: white;
-    margin: 10px;
     padding-bottom: 20px;
+    border-radius: 8px;
 }
-.section-three .section-photo img{
-    width: 100% 
-}
-.section-three .section-photo p{
+.our-services .section-photo p{
     width: 80%;
     text-align: left;
     padding-left: 10px;
@@ -170,56 +177,57 @@
     font-weight: 400;
     
 }
-.section-three .section-photo a {
+.our-services .section-photo a {
     
     text-decoration: none;
     color: #000;
     
 }
-.section-three .section-photo a h6{
+.our-services .section-photo a h6{
     font-size: 19px;
     font-weight: 400;
     margin: 10px 0;
     padding-left: 10px;
 }
-.section-three .section-photo .learn-more{
+.our-services .section-photo .learn-more{
     padding-left: 10px;
     font-size: 15px;
     color: #666
 }
-.section-four{
+.our-secret{
     overflow: auto;
     padding: 70px 80px 80px;
     
      
 }
-.section-four .description {
+.our-secret .description {
     width: 50%;
     float: left;
     line-height: 1.83em;
     margin-top: 70px;
+    box-sizing: border-box;
 
     
 }
-.section-four .description h3{
+.our-secret .description h3{
     font-size: 30px;
     font-weight: 400;
     padding-bottom: 25px;
 }
-.section-four .description ul{
+.our-secret .description ul{
     line-height: 2.3em;
     list-style-type: none;
     margin-bottom: 35px;
     
 }
-.section-four .description ul li{
+.our-secret .description ul li{
     color: #686868;
 }
-.section-four .description ul li i{
+.our-secret .description ul li i{
     margin-right: 8px;
     color: #ff8000;
 }
-.section-four .description a{
+.our-secret .description a{
     text-decoration: none;
     color: white;
     background-color: #ff8000;
@@ -232,71 +240,73 @@
 }
 
 
-.section-four .description p{
+.our-secret .description p{
     font-size: 15px;
     color: #686868;
     padding-bottom: 25px;
 }
-.section-four .image{
+.our-secret .image{
     width: 40%;
     float: right;
     background-color: yellowgreen;
 }
-.section-four .image img{
+.our-secret .image img{
     width: 100%;
-    height: 80%
+    height: 80%;
 }
-.section-five {
+.comments {
     text-align: center;
     padding: 100px 54.5px 70px;
     overflow: auto;
     background-color: #f8f8f8;
+    
 
     
 }
-.section-five .description{
+.comments .description{
     float: right;
-    width: 27%;
+    width: 33.3333%;
     text-align: left;
-    padding: 22px 26px;
-    margin: 0 10px;
-    background-color: white;
-    border: 3px solid white;
-    border-radius: 5px;
+    padding: 22px 26px; 
+    box-sizing: border-box;
+    
 }
 
-.section-five .description p{
-    padding-bottom: 20px;
+.comments .description p{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; 
     
 
 }
-.section-five span i {
+.comments span i {
     font-size: 40px;
     color: #ff8000;
     margin: 35px 0;
     
 }
-.section-five .quote{
+.comments .quote{
     float: right;
-    width: 27%;
+    width: 33.333%;
     text-align: left;
-    padding: 22px 26px;
-    margin: 0 10px;
+    padding: 0px 40px;
     background-color: #f8f8f8;
     font-size: 15px;
+    box-sizing: border-box;
     
 }
-.section-five .author{
+
+.comments .author{
     font-size: 18px;
     margin-bottom: 10px;
     color: #686868;
     
 }
-.section-six{
+.statistics{
     margin: 75px 0; 
     overflow: auto;
 }
-.section-six .description{
+.statistics .description{
     float: right;
     width: 25%;
     text-align: center;
@@ -305,42 +315,43 @@
     font-weight: 500;
 }
 
-.section-six .description i{
+.statistics .description i{
     margin: 20px 0;
     font-size: 30px;
     
 
 }
-.section-six .description .number{
+.statistics .description .number{
     font-size: 52px;
     color: #404040;
     margin-bottom: 10px;
 }
-.section-seven{
-    height: 80%;
+.addtional-value{
     text-align: center;
     width: 100%;
     background-image: url(images/download.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
-    overflow: auto;
+    
+    
 }
-.section-seven h2{
+.addtional-value h2{
     font-size: 32px;
     font-weight: 400;
     padding: 100px 0 40px 0;
 }
-.section-seven p{
-    margin: 0 320px;
+.addtional-value p{
+    width: 60%;
+    margin: auto;
     font-size: 1.15em;
     line-height: 1.86em;
     margin-bottom: 50px;
-    color:  rgba(255,255,255,.92)
+    color: rgba(255,255,255,.92)
 
     
 }
-.section-seven .learn-more{
+.addtional-value a{
     text-decoration: none;
     color: white;
     background-color: #ff8000;
@@ -350,67 +361,72 @@
     font-size: 12px;
     letter-spacing: .2px;
     font-weight: 700;
+    
 }
-.section-eight{
+.addtional-value .learn-more{
+    padding-bottom: 70px;
+}
+.other-services{
     padding-top: 100px;
     text-align: center;
     overflow: auto;
     margin: 0 60px 40px 60px;
     background-color: white;
 }
-.section-eight h3{
+.other-services h3{
     font-size: 36px;
     color: #303030;
     line-height: 1.38em;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.section-eight p{
+.other-services p{
     font-size: 21px;
     color: #888;
     margin-bottom: 50px;;
 }
-.section-eight .description{
+.other-services .description{
     float: right;
     width: 33.333%;
     text-align: left;
     
 }
-.section-eight .description p {
+.other-services .description p {
     font-size: 15px;
     line-height: 1.83em;
     width: 80%;
 }
-.section-eight .description h5{
+.other-services .description h5{
     font-size: 18px;
     margin-bottom: 18px;
     font-weight: 400;
     color: #303030;
 }
-.section-nine{
+.logos{
     background-color: #f8f8f8;
     overflow: auto;
     padding: 80 54.5;
 }
-.section-nine .sec-image{
-    width: 16%;
+.logos .sec-image{
+    width: 20%;
     float: right;
-    margin: 0 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
-.section-nine img{
+.logos img{
     width: 100%;
 }
-.section-ten{
+.contacts{
     background-color: #ff8000;
     padding: 70 80 90;
     overflow: auto;
 }
-.section-ten .description h2{
+.contacts .description h2{
     font-size: 36px;
     font-weight: 400;
     color: white;
 }
-.section-ten .description p{
+.contacts .description p{
     color: rgba(255,255,255,.82);
     font-size: 20px;
     font-style: normal;
@@ -419,10 +435,10 @@
     margin-bottom: 0;
     
 }
-.section-ten .description{
+.contacts .description{
     float: left;
 }
-.section-ten button{
+.contacts button{
     float: right;
     padding: 20px 28px;
     border: 2px solid transparent;
@@ -434,38 +450,39 @@
     font-weight: 700;
     
 }
-.section-eleven{
+.about-us{
     
     background-color:rgb(31, 32, 33);
     overflow: auto;
    
 }
-.section-eleven .description{
+.about-us .description{
     float: right;
-    width: 19%;
-    margin: 50px 0 20 80px;
+    width: 25%;
+    padding: 50px 0 20 80px;
     color: #58606b;
+    box-sizing: border-box; 
 }
-.section-eleven h4{
+.about-us h4{
     color: white;
     font-size: 17px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.section-eleven ul{
+.about-us ul{
     list-style-type: 
 }
-.section-eleven ul li{
+.about-us ul li{
     margin-bottom: 10px;
 }
-.section-eleven a{
+.about-us a{
     text-decoration: none;
     color: #58606b;
 }
-.section-eleven .description .contact{
-    margin-bottom: 20px;
+.about-us .description .contact{
+    line-height: 2em;
 }
-.section-eleven .description .contact i{
+.about-us .description .contact i{
     margin-right: 10px;
 }
 .last{
@@ -489,4 +506,32 @@
 .last .icons a i{
     color:#535353;
 }
+.clr{
+    clear: both;
+}
+
+@media only screen and (max-width: 992px) {
+    .advantages .section-icon, .our-services .section-photo, .comments .description,.comments .quote,.other-services .description {
+        width: 50%;
+    }
+    .statistics .description, .about-us .description {
+        width:  33.33%
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .advantages .section-icon, .our-services .section-photo, .comments .description,.comments .quote, .other-services .description {
+        width: 100%;
+    }
+    .statistics .description, .about-us .description{
+        width:  50%
+    }
+}
+@media only screen and (max-width: 600px) {
+    .statistics .description, .about-us .description {
+        width:  100%
+    }
+}
+
 
